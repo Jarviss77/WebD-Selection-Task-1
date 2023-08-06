@@ -1,0 +1,124 @@
+body{
+    background-color: #6becea;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 90px;
+    color: #137bbc;
+    margin: 15px auto 0 auto;
+    font-family: 'Fira Code', monospace;
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+footer{
+    text-align: center;
+    background-color: #8BF5FA; 
+    padding:50px 0 20px;
+    font-family: 'Fira Code', monospace;
+}
+
+a{
+    color:rgb(38, 163, 163);
+    margin:10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Handjet', cursive;
+}
+
+ul{
+    font-size: 20px;
+}
+
+a:hover{
+    color: #ad24bc;
+}
+
+.div1{
+    text-align: center;
+    position: relative;
+    background-color: #6becea;
+}
+
+.logo{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    position: absolute;
+    margin-top: 20px;
+    left: 280px
+}
+
+#accordian-full{
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-bottom: 210px;
+    text-align: justify;
+}
+
+.accordian {
+    background-color: #D5FFE4;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 22px;
+    transition: 0.4s;
+    font-family: 'Fira Code', monospace;
+  }
+  
+.active, .accordian:hover {
+    background-color: #ccc;
+}
+  
+.accordian:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+
+  
+.active:after {
+    content: "\2212";
+}
+  
+.panel{
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-out;
+    font-family: 'Handjet', cursive;
+}
+
+.copyright{
+    color: #4b5c59;
+    padding:10px 0;
+    font-size: 16px;
+}
+
+.footer-link{
+    font-size: 24px;
+}
+
+.checkbox {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.accordian.marked {
+    background-color: rgb(27, 207, 27);
+  }
