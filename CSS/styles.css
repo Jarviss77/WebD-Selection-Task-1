@@ -2,6 +2,7 @@ body{
     background-color: #6becea;
     margin: 0;
     padding: 0;
+    transition: 0.4s;
 }
 
 h1{
@@ -12,6 +13,7 @@ h1{
     position: relative;
     top: 10px;
     left: 100px;
+    transition: 0.4s;
 }
 
 footer{
@@ -19,6 +21,7 @@ footer{
     background-color: #8BF5FA; 
     padding:50px 0 20px;
     font-family: 'Fira Code', monospace;
+    transition: 0.4s;
 }
 
 a{
@@ -41,6 +44,7 @@ a:hover{
     text-align: center;
     position: relative;
     background-color: #6becea;
+    transition: 0.4s;
 }
 
 .logo{
@@ -122,3 +126,55 @@ a:hover{
 .accordian.marked {
     background-color: rgb(27, 207, 27);
   }
+
+.dark-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.dark-logo:hover{
+    width: 55px;
+    height: 55px;
+    transition: 0.4s;
+}
+
+#dark-button{
+    width: 50px;
+    height: 50px;
+    padding: 0 0 0 0;
+    border: none;
+    background-color: #6becea;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}   
+
+.dark-mode{
+    background-color: #137bbc;
+    transition: 0.4s;
+}
+
+.dark-mode-light{
+    color: #6becea;
+    transition: 0.4s;
+}
+
+.dark-footer{
+    background-color: #046d93;
+    transition: 0.4s;
+}
+
+.dark-accordian{
+    background-color: #4ab0ba;
+    transition: 0.4s;
+}
+
+.dark-panel{
+    background-color: #78e1f1;
+    transition: 0.4s;
+}
+
+.dark-copyright{
+    color: #9adfdf;
+    transition: 0.4s;
+}

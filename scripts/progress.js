@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var accordianFull = document.getElementById('accordian-full');
-
+    
     accordianFull.addEventListener("click", function(event) {
 
         var target = event.target;
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             if(target.checked)
             {
-                target.parentElement.classList.add("marked");
+                target.parentElement.classList.add("marked");;
             }
             else
             {
@@ -18,4 +18,3 @@ document.addEventListener('DOMContentLoaded', function() {
     
     });
 });
-
