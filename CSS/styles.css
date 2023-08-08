@@ -148,10 +148,62 @@ a:hover{
     right: 25px;
 }   
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #6becea;
+    transition: 0.4s;
+}
+
+.container .progress-container {
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.container .progress-container h4 {
+    margin: 0 0 15px 15px;
+    letter-spacing: .5px;
+    font-size: 24px;
+    float: left;
+    font-family: 'Fira Code', monospace;
+    position: absolute;
+    left: 325px;
+    color: rgb(241, 213, 29);
+}
+
+.container .progress-container .progress-bar {
+    position: relative;
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 3px 4px 5px 0px rgba(204 185 185 / .75);
+}
+
+.container .progress-container .progress-bar span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: 'Fira Code', monospace;
+    line-height: 1.7;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgb(7, 149, 12) 50%, rgb(27, 207, 27) 100%);
+    transition: width .5s linear;
+}
+
 .dark-mode{
     background-color: #137bbc;
     transition: 0.4s;
 }
+
 
 .dark-mode-light{
     color: #6becea;

@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         panel.style.maxHeight = panel.scrollHeight + "px";
       }
     }
+    
   });
 
   var button = document.getElementById("dark-button");
@@ -37,9 +38,10 @@ document.addEventListener("DOMContentLoaded", function () {
     for (var i = 0; i < darkpanel.length; i++) {
       darkpanel[i].classList.toggle("dark-panel");
     }
-  
+
     document.getElementById("copyright").classList.toggle("dark-copyright");
-
-
+    document.getElementById("progress").classList.toggle("dark-mode");
   });
+
+
 });
